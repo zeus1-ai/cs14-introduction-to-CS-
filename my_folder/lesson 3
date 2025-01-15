@@ -1,0 +1,49 @@
+# c = int(input("Введите в градусах "))
+# f = 9/5 * c + 32
+# print(c)
+# print("В градусах", " " , c )
+# # print("В фарингейтах", " " , f , "Целое" , " ", int(f))
+# print(f"celciu4m:this is celcium {c}. In forehrits: {f}. f in integer: this is forge {int(f)}.")
+
+
+# num2 = float(round(5.23434,4))
+# print(num2)
+
+
+menu = {
+    "1": "Чай",
+    "2": "Кофе",
+    "3": "Вода",
+    "4": "Шорпо",
+    "5": "ТомЯм",
+    "6": "Курдак",
+    "7": "Манты",
+}
+
+print("Меню:")
+print("1. Чай")
+print("2. Кофе")
+print("3. Вода")
+print("4. Шорпо")
+print("5. ТомЯм")
+print("6. Курдак")
+print("7. Манты")
+
+choice = input("Введите номер вашего выбора (или введите 0, чтобы завершить заказ): ")
+
+order = menu.get(choice, "Неверный выбор")
+print("Ваш заказ:", order)
+
+choice2 = input("Хотите заказать что-то ещё? Введите номер или 0, чтобы завершить: ")
+
+order2 = menu.get(choice2, "Неверный выбор")
+print("Ваш заказ:", order, "и", order2, "(если выбор был неверным, позиция не добавлена).")
+
+
+# name = 'max'`
+# age = 18
+# age = float(age)
+# any_age = str(age)
+# print(any_age)
+# print(type(any_age))
+
