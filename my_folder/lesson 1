@@ -1,0 +1,9 @@
+'''
+name = input("What is your name? ")
+
+age = input("How old are you? ")
+
+film = input("What is your favorite movie? ")
+'''
+
+print("His name is " + name + " he is " + age + " years old, and his favorite movie is " + film )
