@@ -1,0 +1,14 @@
+
+# r=10
+# P=3.14
+# a= 2 * P * r * r
+# print(a)
+#
+# name = input ("")
+# surname = input ("")
+# fullname = name  + "  " + surname
+# print("welcome" ,  fullname)
+
+c = int (input(" enter the celcium: " " "))
+f = (9/5) * c + 32
+print(f)
